@@ -10,7 +10,7 @@ html {
 
 .order {
   background: hsl(225, 100%, 94%) url("./images/pattern-background-desktop.svg")
-    no-repeat;
+    repeat-x;
   display: flex;
   justify-content: center;
   align-items: center;
