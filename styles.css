@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.order {
+  background: hsl(225, 100%, 94%) url("./images/pattern-background-desktop.svg")
+    no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.order__card {
+  max-width: 390px;
+  border-radius: 20px;
+  overflow: hidden;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.order__card img {
+  width: 100%;
+}
+
+.order__card-content {
+  padding: 30px;
+}
+
+.order__title {
+  font-size: 24px;
+  font-weight: 900;
+  margin-bottom: 16px;
+}
+
+.order__subtitle {
+  font-size: 15px;
+  margin-bottom: 20px;
+  color: hsl(224, 23%, 55%);
+  font-weight: 500;
+}
+
+.order__plan {
+  display: flex;
+  align-items: center;
+  background-color: hsl(225, 100%, 98%);
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.order__plan img {
+  width: 40px;
+  margin-right: 20px;
+}
+
+.order__plan a {
+  margin-left: auto;
+  font-weight: 700;
+  color: hsl(245, 75%, 52%);
+}
+
+.order__plan-price p:first-child {
+  font-weight: 700;
+}
+
+.order__plan-price p:nth-child(2) {
+  color: hsl(224, 23%, 55%);
+}
+
+.btn {
+  display: block;
+  border: none;
+  width: 100%;
+  padding: 14px;
+  font-weight: 900;
+}
+
+.order__btn-pay {
+  background-color: hsl(245, 75%, 52%);
+  color: #fff;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0px 5px 10px rgba(56, 41, 224, 0.3);
+}
+
+.order__btn-cancel {
+  background-color: #fff;
+  color: hsl(224, 23%, 55%);
+}
